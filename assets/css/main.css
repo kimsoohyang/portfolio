@@ -5,7 +5,7 @@
 */
 
 *{
-	cursor: url(../../images/mouse.png) 4 5, url(../../images/mouse.png),url(../../images/mouse2.png) 5 5, auto;
+	cursor: url(../../images/mouse2.png) 4 5, url(../../images/mouse.png),url(../../images/mouse2.png) 5 5, auto;
 }
 
 html,
@@ -1298,7 +1298,7 @@ body.is-preload .wrapper.fade>.inner {
 
 #sidebar {
 	padding: 2.5em 2.5em 0.5em 2.5em;
-	background: #2e2e2e;
+	background: #4c5789;
 	cursor: default;
 	height: 100vh;
 	left: 0;
@@ -1443,7 +1443,7 @@ body.is-ie #sidebar>.inner {
 	border: 0;
 	color: rgba(255, 255, 255, 0.555);
 	display: block;
-	font-size: 0.8em;
+	font-size: 0.75em;
 	font-weight: bold;
 	letter-spacing: 0.2em;
 	line-height: 1.75;
@@ -1797,7 +1797,7 @@ body.is-preload #sidebar nav ul li {
 }
 
 #footer {
-	background-color: #3b446e;
+	background-color: #4C5789;
 }
 
 
@@ -1847,6 +1847,16 @@ body.is-preload #sidebar nav ul li {
 	}
 } */
 
+
+/* #three img:hover{
+	transform: translateY(-10px);
+	transition: all 0.7s;
+} */
+
+.features section:hover img{
+	transform: translateY(-10px);
+	transition: all 0.7s;
+}
 
 
 @keyframes anime_textup { 0% { top: 0; } 20% { top: -0.4rem; } 40% { top: 0 } 60% { top: 0 } 80% { top: 0 } 100% { top: 0 } }
@@ -1934,6 +1944,11 @@ body::-webkit-scrollbar {/*스크롤바 전체*/
 
 #four a{
 	font-size: 0.8em;
+}
+
+#four p:hover{
+	color: #fff;
+	transition: all 1s;
 }
 
 
