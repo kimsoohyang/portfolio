@@ -1435,6 +1435,7 @@ body.is-ie #sidebar>.inner {
 	transition-delay: 2.25s;
 }
 
+/* 사이드바 폰트 */
 #sidebar nav a {
 	-moz-transition: color 0.2s ease;
 	-webkit-transition: color 0.2s ease;
@@ -1443,8 +1444,8 @@ body.is-ie #sidebar>.inner {
 	border: 0;
 	color: rgba(255, 255, 255, 0.555);
 	display: block;
-	font-size: 0.75em;
-	font-weight: bold;
+	font-size: 0.8em;
+	font-weight: 800;
 	letter-spacing: 0.2em;
 	line-height: 1.75;
 	outline: 0;
@@ -1486,13 +1487,14 @@ body.is-ie #sidebar>.inner {
 	color: rgba(255, 255, 255, 0.808);
 }
 
+/* 사이드바박스 */
 #sidebar nav a.active {
 	color: #fff;
 	background-color: #fec002;
 	padding-right: 0px;
 	border-radius: 30px;
 	display: inline-block;
-	padding: 13px 34px;
+	padding: 12px 24px;
 	/* box-shadow: 0 0 15px #8f8f8f; */
 }
 
@@ -1513,6 +1515,27 @@ body.is-preload #sidebar nav ul li {
 }
 
 @media screen and (max-width: 1500px) {
+
+	#intro .intro_text{
+		margin: auto;
+	}
+
+	#one .theday{
+		margin: auto;
+	}
+
+	#two .inner{
+		margin: auto;
+	}
+
+	#three .inner{
+		margin: auto;
+	}
+
+	
+
+
+	
 
 	#sidebar {
 		height: 3.5em;
