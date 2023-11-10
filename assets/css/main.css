@@ -225,6 +225,16 @@ textarea {
 	line-height: 1.75;
 }
 
+@media screen and (max-width: 1753px) {
+	.rice h1{
+		font-size: 3em;
+
+	.rice h2{
+		font-size: 3em;
+}
+
+	.rice wrap{
+		margin-top: 50px;
 @media screen and (max-width: 1680px) {
 
 	body,
