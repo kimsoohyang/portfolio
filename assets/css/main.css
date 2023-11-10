@@ -225,17 +225,21 @@ textarea {
 	line-height: 1.75;
 }
 
-@media screen and (max-width: 1753px) {
+@media screen and (max-width: 1760px) {
 	.rice h1{
-		font-size: 3em;
+		font-size: 2em;
+	}
 
 	.rice h2{
 		font-size: 3em;
-
-	.rice wrap{
-		margin-top: 50px;
-
 	}
+
+	.rice_wrap{
+		margin-top: 50px;
+	}
+}
+
+	
 		
 @media screen and (max-width: 1680px) {
 
