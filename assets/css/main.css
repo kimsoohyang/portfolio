@@ -226,17 +226,22 @@ textarea {
 }
 
 @media screen and (max-width: 1760px) {
-	.rice h1{
-		font-size: 2em;
+
+	#intro .rice h1{
+		font-size: 2.8em;
+	}
+	#intro .rice h2{
+		font-size: 2.8em;
 	}
 
-	.rice h2{
-		font-size: 3em;
+	#intro .rice_wrap{
+		margin-top: 15px;
 	}
 
-	.rice_wrap{
-		margin-top: 50px;
+	#intro .rice img{
+		width: 20%;
 	}
+	
 }
 
 	
@@ -260,6 +265,7 @@ textarea {
 	textarea {
 		font-size: 12pt;
 	}
+
 
 }
 
@@ -510,6 +516,9 @@ h6 {
 }
 
 @media screen and (max-width: 980px) {
+
+
+
 	.art {
 		flex-wrap: wrap;
 	}
@@ -521,6 +530,10 @@ h6 {
 	.art section:nth-child(2) {
 		margin: 1em 0;
 	}
+
+	
+
+
 }
 
 /* Features */
