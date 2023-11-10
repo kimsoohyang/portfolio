@@ -1640,7 +1640,7 @@ body.is-preload #sidebar nav ul li {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	position: relative;
-	background: url(../../images/main_bg2.png) no-repeat center top;
+	background: url(../../images/main_bg2.png) no-repeat center top #ffd75b;
 }
 
 
